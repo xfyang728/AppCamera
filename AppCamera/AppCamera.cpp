@@ -81,8 +81,9 @@ int cameraTest() {
 
 int main()
 {
+	//显示图像
 	imgTest();
-
+	//显示摄像头
 	int ret = cameraTest();
 
 	return ret;
